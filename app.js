@@ -1,4 +1,5 @@
 import 'dotenv/config.js'
+import "./config/db.js"
 import express  from'express'         /*para levantar y configurar un servidor */
 import path  from'path'              /*necesario para conocer la ubicacion de nuestro servidor */
 import logger from'morgan'  /*es una libreria para registrar las peticiones */
